@@ -2,6 +2,10 @@
 
 This is a repo for getting data and testing investment ideas. Will also try to build simple analysis and visualition tools.
 
+Current target: get tickers from different source as starting point (2025-10)
+
+Next target: build download pipeline to get basic data from yahoo finance
+
 Code structure
 
 investment-ideas/
@@ -27,8 +31,6 @@ investment-ideas/
 │   ├── test_signal_generator.py   # Unit tests for signal generation
 │   └── test_performance_analysis.py # Unit tests for performance analysis
 │
-├── notebooks/                    # Jupyter notebooks for exploratory analysis
-│   └── exploratory_analysis.ipynb
 │
 ├── requirements.txt              # Python package requirements
 ├── README.md                     # Project documentation

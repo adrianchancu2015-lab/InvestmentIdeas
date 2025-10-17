@@ -1,6 +1,6 @@
-from data.data_scraper import YFData
+from data.data_scraper import YFData, WikiData
 
 if __name__=="__main__":
-    dataloader = YFData()
-    result = dataloader.get_yahoo_tickers(exchange="NMS")
+    dataloader = WikiData()
+    result = dataloader.get_index_constituents()
     print(result)
