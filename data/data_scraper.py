@@ -12,6 +12,13 @@ class WikiData:
             # A more reliable method is often scraping Wikipedia for the S&P 500 list.
             
             # Example of fetching S&P 500 components via scraping (using pandas' built-in HTML reader)
+            index_url_map = {
+                "s&p500": "List_of_S%26P_500_companies",
+                "ftse250": "FTSE_250_Index#Constituents",
+                "tsxci": "S%26P/TSX_Composite_Index",
+                
+            }
+            
             sp500_url = 'https://en.wikipedia.org/wiki/List_of_S%26P_500_companies'
             
             # Read the HTML tables from the Wikipedia page
